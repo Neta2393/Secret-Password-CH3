@@ -10,14 +10,15 @@ function writePassword() {
 
 }
 function generatePassword() {
+  // added array for numbers,letters and special characters
   var uppercasearray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",]
   var lowercasearray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",]
   var numberarray = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ]
   var specialarray = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "+", "-", ".", "`", "~", "|", "<", ">", "=", "-", "_"]
-  let passwordLegnth = prompt("Please enter a password that is between 8 and 128 characters");
-  console.log (passwordLegnth)
-  if (passwordLegnth <8|| passwordLegnth >128){
-  alert("Wrong Legnth")
+  let passwordLength = prompt("Please enter a password that is between 8 and 128 characters");
+  console.log (passwordLength)
+  if (passwordLength <8|| passwordLength >128){
+  alert("Wrong Length. Please add more numbers or characters.")
   }
  let adduppercase = confirm("Would you like to add an uppercase letter?");
  let addlowercase = confirm("Would you like to add a lowercase letter?")
@@ -25,5 +26,6 @@ function generatePassword() {
  let addspecialcharacter = confirm("Would you like to add a special character?")
 console.log (adduppercase)
 }
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
