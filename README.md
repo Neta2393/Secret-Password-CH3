@@ -19,7 +19,7 @@ This challenge proved to be challenging. While trying to debug my code I hit a f
 
 ## Sources
 
-Throughout the course of me working on challenge 3 I consulted a number of differnet resources to help debug the JavaScript. I have listed them below:
+Throughout the course of me working on challenge 3 I consulted a number of differnet resources to help debug the JavaScript located in my assets folder of this repo. I have listed them below:
 
 https://www.youtube.com/watch?v=x4HUaiazDes
 
