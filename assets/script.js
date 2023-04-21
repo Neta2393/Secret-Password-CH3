@@ -11,10 +11,12 @@ function writePassword() {
 }
 function generatePassword() {
   // added array for numbers,letters and special characters
-  var adduppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",]
-  var addlowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",]
-  var addnumber = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ]
-  var addspecialcharacter = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "+", "-", ".", "`", "~", "|", "<", ">", "=", "-", "_"]
+  var uppercasearray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",]
+  var lowercasearray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",]
+  var numberarray = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ]
+  var specialcharacterarray = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "+", "-", ".", "`", "~", "|", "<", ">", "=", "-", "_"]
+  var assortedarray = ["8", "&" , "d" , "B" , "9", "" , "(", "H" ,"*", ]
+  console.log(assortedarray)
   let passwordLength = prompt("Please enter a password that is between 8 and 128 characters");
   if (passwordLength <8|| passwordLength >128){
   alert("Wrong Length")
@@ -32,7 +34,7 @@ function generatePassword() {
 console.log (addspecialcharacter);
 
 // Created a return statement to try to have the arrays generate a password using varying numbers,letters and special characters
-return password;
+return assortedarray;
 }
 // Added an event listener to generate the generate password button
 generateBtn.addEventListener("click", writePassword);
