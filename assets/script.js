@@ -16,9 +16,9 @@ function generatePassword() {
   var numberarray = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ]
   var specialarray = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "+", "-", ".", "`", "~", "|", "<", ">", "=", "-", "_"]
   let passwordLength = prompt("Please enter a password that is between 8 and 128 characters");
-  console.log (passwordLength)
   if (passwordLength <8|| passwordLength >128){
   alert("Wrong Length")
+  console.log (passwordLength)
   }
   // Declared the use of uppercase,lowercase,numbers and special characters that I added to the arrays above
  let adduppercase = confirm("Would you like to add an uppercase letter?")
