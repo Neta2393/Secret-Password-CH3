@@ -1,4 +1,4 @@
-// Assignment Code
+
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
@@ -18,14 +18,21 @@ function generatePassword() {
   let passwordLength = prompt("Please enter a password that is between 8 and 128 characters");
   console.log (passwordLength)
   if (passwordLength <8|| passwordLength >128){
-  alert("Wrong Length. Please add more numbers or characters.")
+  alert("Wrong Length")
   }
- let adduppercase = confirm("Would you like to add an uppercase letter?");
+  // Declared the use of uppercase,lowercase,numbers and special characters that I added to the arrays above
+ let adduppercase = confirm("Would you like to add an uppercase letter?")
+//  console logged each of the different criterias
+ console.log (adduppercase);
  let addlowercase = confirm("Would you like to add a lowercase letter?")
+ console.log (addlowercase);
  let addnumber = confirm("Would you like to add a number?")
+ console.log (addnumber)
  let addspecialcharacter = confirm("Would you like to add a special character?")
-console.log (adduppercase)
-}
+console.log (addspecialcharacter);
 
-// Add event listener to generate button
+
+
+}
+// Added an event listener to generate the generate password button
 generateBtn.addEventListener("click", writePassword);
