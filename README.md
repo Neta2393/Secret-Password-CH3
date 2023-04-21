@@ -12,7 +12,7 @@ The function of the website is that you should be able to click generate passwor
 
 ## Accountability
 
-This challenge proved to be challenging. While trying to debug my code I hit a few bumps and although the password generator reads as undefined I learned alot. I worked on this up until the very end and I am proud of what I accomplished. In the spirit of not getting 0 I am conceeding to the password challenge just for tonight so I can turn it in on time. I will continue to look at the code and try to find where I went wrong. You can do all but generate a code. 
+This challenge proved to be challenging. While trying to debug my code I hit a few bumps and learned a lot about JavaScript. I worked on this up until the very end and I am proud of what I accomplished. In the spirit of not getting 0 I am conceeding to the password challenge just for tonight so I can turn it in on time. I will continue to look at the code and try to find where I went wrong. You can do all but generate a code. 
 
 [!img]![127 0 0 1_5502_index html](https://user-images.githubusercontent.com/128006949/233566328-29179cf6-9b5c-48a9-90bc-a59c23d2aafa.png)
 
